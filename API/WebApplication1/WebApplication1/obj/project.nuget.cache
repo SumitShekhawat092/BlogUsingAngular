@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6tvsybZP4uk=",
+  "dgSpecHash": "pgH/3+ZeUiQ=",
   "success": true,
-  "projectFilePath": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sumit\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\sumit\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

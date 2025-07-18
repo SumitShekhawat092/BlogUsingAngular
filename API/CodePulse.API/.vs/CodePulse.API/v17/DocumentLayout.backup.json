@@ -34,12 +34,11 @@
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
-              "ToolTip": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs*",
-              "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs*",
+              "ToolTip": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAzwBwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T19:01:59.323Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T19:01:59.323Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T19:01:00.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T19:01:00.66Z"
             },
             {
               "$type": "Document",
@@ -74,7 +72,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoryController.cs",
               "ToolTip": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwEEAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T17:31:25.223Z",
               "EditorCaption": ""

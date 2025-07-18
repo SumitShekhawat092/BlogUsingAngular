@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProgrammersLogin\\Udemy\\CodePulse\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\ProgrammersLogin\\Udemy\\CodePulse\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\sumit\\.nuget\\packages\\",
-        "outputPath": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\API\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "D:\\ProgrammersLogin\\Udemy\\CodePulse\\Blog\\API\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
