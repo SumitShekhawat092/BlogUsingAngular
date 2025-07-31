@@ -1,8 +1,9 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { CategoryService } from '../Services/category.service';
 import { Category } from '../models/category.model';
+import { UpdateCategoryRequest } from '../models/update-category-request.model';
 
 @Component({
   selector: 'app-edit-category',
@@ -13,8 +14,11 @@ export class EditCategoryComponent implements OnInit, OnDestroy {
 
   id: string | null = null;
   paramSubscription?: Subscription;
+  EditCategorySubscription?: Subscription;
+  DeleteCategorySubscription?: Subscription;
   category?: Category;
-  constructor(private route: ActivatedRoute, private categoryService: CategoryService){}
+  constructor(private route: ActivatedRoute, private categoryService: CategoryService,
+    private router: Router){}
   
   ngOnInit(): void {
     this.paramSubscription = this.route.paramMap.subscribe({
@@ -33,11 +37,36 @@ export class EditCategoryComponent implements OnInit, OnDestroy {
   }
 
   onFormSubmit(): void{
-    console.log(this.category);
+    const updateCategoryRequest: UpdateCategoryRequest = {
+      name: this.category?.name ?? '',
+      urlHandle: this.category?.urlHandle ?? '' 
+    }
+    // pass this object to service
+    if(this.id){
+      this.EditCategorySubscription = this.categoryService.updateCategory(this.id,updateCategoryRequest)
+      .subscribe({
+        next: (Response) => {
+          this.router.navigateByUrl('/admin/categories');
+        }
+      });
+    }
+  }
+
+  onDelete(): void{
+    if(this.id){
+      this.DeleteCategorySubscription = this.categoryService.deleteCategory(this.id)
+      .subscribe({
+        next: (response) => {
+          this.router.navigateByUrl('/admin/categories');
+        }
+      });
+    }
   }
 
   ngOnDestroy(): void {
     this.paramSubscription?.unsubscribe();
+    this.EditCategorySubscription?.unsubscribe();
+    this.DeleteCategorySubscription?.unsubscribe();
   }
 
 

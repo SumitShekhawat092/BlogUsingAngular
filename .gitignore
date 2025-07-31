@@ -55,6 +55,7 @@ Thumbs.db
 # User-specific files
 *.rsuser
 *.suo
+
 *.user
 *.userosscache
 *.sln.docstates
@@ -82,7 +83,8 @@ bld/
 [Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
-.vs/
+API/CodePulse.API/.vs/
+
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
