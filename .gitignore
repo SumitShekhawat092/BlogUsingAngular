@@ -448,3 +448,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 API/CodePulse.API/.vs/CodePulse.API/DesignTimeBuild/.dtbcache.v2
+/API/CodePulse.API/.vs
+/API/CodePulse.API/.vs/CodePulse.API
+/API/CodePulse.API/.vs/CodePulse.API/v17
